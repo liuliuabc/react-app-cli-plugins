@@ -1,6 +1,8 @@
 class Mobx{
-    name = "mobx";
-    events = ["cli_end", "cli_start"];
+    constructor(){
+        this.name = "mobx";
+        this.events = ["cli_end", "cli_start"];
+    }
     apply(runtime){
         console.log("mobx plugin apply");
     }
