@@ -1,4 +1,4 @@
-class MobxPlugin{
+class Mobx{
     name = "mobx";
     events = ["cli_end", "cli_start"];
     apply(runtime){
@@ -8,4 +8,4 @@ class MobxPlugin{
         console.log("mobx plugin",event)
     }
 }
-module.exports=new MobxPlugin();
+module.exports=new Mobx();
